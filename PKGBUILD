@@ -1,7 +1,7 @@
 # Maintainer: Vivek Pal <31vivekpal@gmail.com>
 
 pkgname="shastraos-hooks"
-pkgver=1.0
+pkgver=0.1
 pkgrel=1
 pkgdesc='Pacman hooks for ShastraOS ISOs'
 arch=('any')
