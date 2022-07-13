@@ -8,6 +8,9 @@ fix_pixmaps() {
 		if [[ -e /usr/share/pixmaps/"$img" ]]; then 
 			rm -rf /usr/share/pixmaps/"$img"
 		fi
+		
+		cp /usr/share/shastraos/artwork/icons/shastraos.png /usr/share/pixmaps/
+		cp /usr/share/shastraos/artwork/icons/shastraos.svg /usr/share/pixmaps/
 	done	
 }
 
