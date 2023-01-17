@@ -25,7 +25,7 @@ Os_release() {
     local home=https://shastraos.co
     local doc=https://shastraos.com/guide
     local support=https://shastraos.com
-    local bugs=https://github.com/Shastra-OS/shastra-iso/issues
+    local bugs=https://github.com/ShastraOS/shastra-iso/issues
 
     sed -i $file \
         -e 's|^NAME=.*$|NAME=ShastraOS|' \
